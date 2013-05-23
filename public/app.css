@@ -1,0 +1,36 @@
+html, body {
+    height:100%;
+}
+
+*, html, body {
+    font-family: 'Monaco','Lucida Console',sans-serif;
+}
+
+h4 {
+    margin:0 0 10px 0;
+    font-size:18px;
+}
+
+button {
+    width:100%;
+    text-align:center;
+    font-size: 14px;
+}
+
+#editor {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:250px;
+}
+
+#clients {
+    position:absolute;
+    overflow:hidden;
+    right:0;
+    top:0;
+    bottom:0;
+    width:230px;
+    padding:10px;
+}

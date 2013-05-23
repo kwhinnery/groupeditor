@@ -1,0 +1,18 @@
+{
+  "name": "groupeditor",
+  "version": "0.0.0",
+  "description": "A group text editor with socket.io, Ace, and Twilio",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.2.0",
+    "socket.io": "~0.9.14",
+    "twilio":"1.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Kevin Whinnery",
+  "license": "MIT"
+}

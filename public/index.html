@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Group Editor</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//rawgithub.com/ajaxorg/ace-builds/master/src-noconflict/ace.js"></script>
+    <script src="//static.twilio.com/libs/twiliojs/1.1/twilio.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link rel=stylesheet href="/app.css"/>
+</head>
+<body>
+    <!-- Simple UI Structure -->
+    <div id="editor">var awesome = true;</div>
+    <div id="clients">
+        <h4>Connected Hackers</h4>
+        <ul></ul>
+        <button>Voice Chat</button>
+    </div>
+
+    <!-- Load script which drives the editor -->
+    <script src="/app.js"></script>
+</body>
+</html>
