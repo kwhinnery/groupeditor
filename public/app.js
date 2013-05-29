@@ -9,7 +9,6 @@
     editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/javascript");
 
-    // Replace IP address with your local machine address/server name
     var socket = io.connect();
     socket.on('editorUpdate', function (data) {
         editor.setByAPI = true;
